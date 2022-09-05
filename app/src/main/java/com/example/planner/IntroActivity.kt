@@ -15,7 +15,7 @@ class IntroActivity : AppCompatActivity() {
 
 
         window.insetsController?.hide(WindowInsets.Type.statusBars())
-        supportActionBar?.hide();
+        supportActionBar?.hide(); //ss
 
 
     }
