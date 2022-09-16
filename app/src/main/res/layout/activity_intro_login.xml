@@ -8,12 +8,6 @@
     android:orientation="vertical"
     tools:context=".IntroLoginActivity">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/intro_screen_image_marginTop"
-        android:contentDescription="@string/app_name"
-        android:src="@mipmap/ic_task_image"/>
 
     <TextView
         android:id="@+id/tv_app_name"
@@ -21,7 +15,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/app_name"
-        android:textColor="@android:color/holo_blue_bright"
+        android:textColor="@android:color/black"
         android:textSize="@dimen/Intro_login_title_text_size"/>
 
     <Button
@@ -32,7 +26,7 @@
         android:layout_marginStart="@dimen/btn_marginStartEnd"
         android:layout_marginTop="@dimen/intro_screen_sign_in_btn_marginTop"
         android:layout_marginEnd="@dimen/btn_marginStartEnd"
-        android:background="@android:color/holo_blue_bright"
+        android:background="@color/teal_200"
         android:gravity="center"
         android:paddingTop="@dimen/btn_paddingTopBottom"
         android:paddingBottom="@dimen/btn_paddingTopBottom"
