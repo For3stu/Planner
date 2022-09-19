@@ -1,5 +1,6 @@
 package com.example.planner
 
+import android.content.Intent
 import android.os.Build
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -17,4 +18,8 @@ class IntroLoginActivity : AppCompatActivity() {
         supportActionBar?.hide();
 
     }
+        btn_sign_up.setOnClickListener {
+
+            startActivity(Intent(this, SignUpActivity.class.java))
+        }
 }
