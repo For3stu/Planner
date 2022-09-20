@@ -18,8 +18,4 @@ class IntroLoginActivity : AppCompatActivity() {
         supportActionBar?.hide();
 
     }
-        btn_sign_up.setOnClickListener {
-
-            startActivity(Intent(this, SignUpActivity.class.java))
-        }
 }

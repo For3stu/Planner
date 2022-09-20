@@ -14,7 +14,7 @@ class SingUpActivity : AppCompatActivity() {
     }
 
     private fun setupActionBar(){
-        setSupportActionBar(toolbar_sign_up_activity)
+        setActionBar(toolbar_sign_up_activity)
 
         val actionBar = supportActionBar
         if (actionBar != null){
